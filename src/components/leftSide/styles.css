@@ -1,0 +1,73 @@
+.bodyContainer {
+  color: grey;
+
+  background-color: #f8f9fa;
+}
+.IconeName {
+  padding-top: 35px;
+}
+.userName {
+  padding-top: 5px;
+  color: black;
+}
+.userName > p {
+  color: grey;
+}
+.BookButton {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.bookingButton {
+  width: 190px;
+  border-radius: 2;
+  background-color: #ac65f7;
+  /* padding-top: 10px; */
+}
+.Refer {
+  padding-top: 25px;
+}
+.Settings {
+  padding-top: 25px;
+}
+.support {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.support > span {
+  font-size: 15px;
+}
+.Contact {
+  padding-top: 15px;
+}
+.FAQ {
+  padding-top: 15px;
+}
+.signout {
+  /* background-color: green; */
+  padding-top: 100px;
+}
+
+.parallelogram {
+  width: 50px;
+  height: 50px;
+  /* padding: 20px; */
+  /* -webkit-transform: skew(30deg);
+  -moz-transform: skew(30deg); */
+  transform: skew(20deg);
+  /* background: #ccc; */
+  background: #ac65f7;
+  margin: 20px;
+  border-radius: 10px 10px 10px 10px;
+}
+.parallelogram > p,
+.parallelogram > i {
+  color: white;
+}
+.parallelogram .text {
+  width: 20px;
+  /* color: aliceblue; */
+  /* -webkit-transform: skew(30deg);
+  -moz-transform: skew(30deg); */
+  /* transform: skew(10deg); */
+  /* margin: 20px; */
+}

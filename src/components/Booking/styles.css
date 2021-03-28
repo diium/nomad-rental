@@ -1,0 +1,208 @@
+.wrapper {
+  position: absolute;
+  top: 4%;
+  left: 94%;
+  transform: translate(-50%, -50%);
+}
+
+.hamburger {
+  width: 70px;
+  height: 40px;
+  background: #ffffff;
+  box-shadow: 0 0 15px rgb(207, 208, 209);
+  cursor: pointer;
+  position: relative;
+  border-radius: 5px;
+}
+
+.hamburger > div {
+  position: absolute;
+  height: 5px;
+  background: grey;
+  transition: width 0.3s ease;
+  border-radius: 5px;
+}
+
+.first {
+  width: 35px;
+  top: 8px;
+  left: 10px;
+}
+
+.second {
+  width: 35px;
+  top: 18px;
+  left: 10px;
+}
+
+.third {
+  width: 35px;
+  top: 28px;
+  left: 10px;
+}
+
+.hamburger:hover div {
+  width: 60px;
+  transition: width 0.3s ease;
+}
+.Choose {
+  margin-left: 30%;
+  padding-top: 5%;
+  color: grey;
+  font-size: 15px;
+}
+/* dropdown */
+.app-container {
+  background-color: #f8f9fa;
+}
+.logo > img {
+  height: 30px;
+  opacity: 0.5;
+}
+.left-bar {
+  max-width: 200px;
+  display: flex;
+  justify-content: space-around;
+  justify-content: flex-start;
+  flex-direction: column;
+  float: left;
+  /* background: #f8f9fa; */
+  min-height: 100%;
+}
+.padding-top {
+  padding-top: 15%;
+}
+
+/* booking css */
+.booking-container {
+  background: #f8f9fa;
+  color: grey;
+}
+.bookingText {
+  color: black;
+  padding-top: 20px;
+}
+.longText {
+  padding-top: 20px;
+  margin-right: 55%;
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+.longText1 {
+  padding-top: 20px;
+  margin-right: 55%;
+  font-size: 12px;
+  padding-bottom: 40px;
+  /* background-color: #161b20; */
+}
+.Thegreen {
+  background-color: #f8f9fa;
+  border-radius: 20px 0px;
+  border-top-right-radius: 25px;
+}
+.user-info {
+  justify-content: space-around;
+  padding-top: 59;
+}
+.user-info > span {
+  color: black;
+}
+.user-info > p {
+  color: darksilver;
+  font-size: 10px;
+}
+
+.image-info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: start;
+  box-shadow: 0 8px 8px 0px rgba(0, 0, 0, 0.2),
+    0 0px 20px 3px rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+  margin-right: 21%;
+  margin-top: 30px;
+  /* padding-top: 18px; */
+  /* marginRight: "21%" */
+}
+.image > img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+}
+.image {
+  max-width: 400px;
+  border-radius: 15px 0px 0px 16px;
+}
+.bookedInfo {
+  min-width: 500px;
+  margin-left: 0;
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 40%;
+  border-top-right-radius: 20px 20px;
+}
+.bookingTextView {
+  color: black;
+  padding-top: 10;
+}
+.Recieved {
+  padding-top: 10px;
+  font-size: 15px;
+}
+.Awaiting {
+  color: #6663f2;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.Superior {
+  color: black;
+  font-size: 15px;
+}
+.booked-desc h2,
+strong,
+span {
+  display: flex;
+}
+/* Account css */
+
+.info-container-form {
+  justify-content: space-around;
+
+  box-shadow: 0 8px 8px 0px rgba(0, 0, 0, 0.2),
+    0 0px 20px 3px rgba(0, 0, 0, 0.19);
+  border-radius: 6px;
+  padding: 40px;
+}
+.bookingButton {
+  background-color: #6663f2;
+}
+.longTextAccount {
+  font-size: 12px;
+}
+.image-info-Account {
+  /* display: flex; */
+  /* flex-direction: row; */
+  justify-content: space-between;
+  justify-items: start;
+  box-shadow: 0 8px 8px 0px rgba(0, 0, 0, 0.2),
+    0 0px 20px 3px rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+
+  margin-right: 21%;
+}
+.formGridName {
+  padding-right: 4%;
+  /* background-color: grey; */
+}
+.classButton {
+  padding-left: 55%;
+}
+.classButton1 {
+  /* color: grey; */
+  /* flex-direction: row; */
+  /* font-size: 12px; */
+  border-color: #6663f2;
+  background-color: #6663f2;
+}
